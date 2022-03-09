@@ -1,4 +1,4 @@
-import 'package:bloc_cubit/domain//cubit/theme_cubit.dart';
+import 'package:bloc_cubit/domain/cubit/theme_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    ThemeCubit cubit = BlocProvider.of<ThemeCubit>(context, listen: false);
+    ThemeCubit cubit = BlocProvider.of<ThemeCubit>(context, listen: true);
     bool isDark = cubit.isDark;
     return Scaffold(
         appBar: AppBar(

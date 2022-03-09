@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'custom_bloc_provider.dart';
-import 'domain/cubit//theme_cubit.dart';
+import 'domain/cubit/theme_cubit.dart';
 
 void main() {
   runApp(const MyApp());
