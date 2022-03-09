@@ -1,4 +1,4 @@
-import 'package:bloc_cubit/domain/cubit/cubit/theme_cubit.dart';
+import 'package:bloc_cubit/domain/cubit/theme_cubit.dart';
 import 'package:bloc_cubit/presentation/views/home_view.dart';
 import 'package:flutter/material.dart';
 
